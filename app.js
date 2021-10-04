@@ -4,6 +4,7 @@ var btnCheck = document.querySelector("#btn-check");
 var textMessage = document.querySelector("#show-msg");
 var noNotes = document.querySelectorAll(".no-of-notes");
 
+// document.getElementById("btn-check").style.visibility = "hidden";
 const availableNote = [500,200,100,50,10,5,1];
 
 btnCheck.addEventListener("click", totalBillAndCash);
